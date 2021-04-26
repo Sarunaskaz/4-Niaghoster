@@ -1,0 +1,53 @@
+<style>
+    body{
+        margin: 0%;
+        background-color: #ffff;
+    }
+        body>header{
+            display: inline-block;
+            width: 1200px;
+            margin-top: 60px;
+            margin-left: calc((100% - 1200px) / 2);
+            color: royalblue;
+        }
+        body>header>img{
+            height: 60px;
+            float: left;
+        }
+
+        nav{
+            float: right;
+            margin-top: 10px;
+        }
+        nav>a {
+            display: inline-block;
+            float: left;
+            padding: 10px;
+            font-size: 18px;
+            line-height: 20px;
+            color: royalblue;
+            text-decoration: none;
+            
+
+        }
+       
+       main{
+           display: inline-block;
+           width: 1200px;
+           margin-left: calc((100% - 1200px) / 2 );
+        
+
+       }
+       div {
+            display: inline-block;
+       }
+
+       p {
+        display: inline-block;  
+       }
+       main>img {
+        display: inline-block;
+        width: 50%;
+       }
+
+    </style>
