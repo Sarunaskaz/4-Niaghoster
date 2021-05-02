@@ -1,27 +1,28 @@
 <style>
     body{
-        margin: 0%;
+        margin: 0;
         background-color: #ffff;
     }
-        body>header{
+        header{
             display: inline-block;
-            width: 1200px;
-            margin-top: 60px;
-            margin-left: calc((100% - 1200px) / 2);
+            width: 1000px;
+            margin-top: 20px;
+            margin-left: calc((100% - 1000px) / 2);
             color: royalblue;
         }
         body>header>img{
-            height: 60px;
+            height: 40px;
             float: left;
         }
 
         nav{
             float: right;
-            margin-top: 10px;
+            margin-top: 8px;
+            margin-left: calc((100% - 1000px) / 2 )
         }
-        nav>a {
+        nav > a {
             display: inline-block;
-            float: left;
+            float: right;
             padding: 10px;
             font-size: 18px;
             line-height: 20px;
@@ -33,13 +34,28 @@
        
        main{
            display: inline-block;
-           width: 1200px;
-           margin-left: calc((100% - 1200px) / 2 );
+           width: 1000px;
+           margin-left: calc((100% - 1000px) / 2 );
         
 
        }
        div {
             display: inline-block;
+            width: 40%;
+            float: left;
+            margin-top:  100px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #C9CDD4;
+       }
+       div>:first-child{
+           color: black;
+       }
+       div>:last-child{
+        background-color: blue;
+        color: #ffff;
+        padding: 5px 30px;
+        border-radius: 20px;
+        line-height: 30px;
        }
 
        p {
@@ -47,7 +63,10 @@
        }
        main>img {
         display: inline-block;
-        width: 50%;
+        width: 532px;
+        float: right;
+        margin-top: 25px;
+        
        }
 
-    </style>
+  
